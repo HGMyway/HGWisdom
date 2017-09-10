@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HGWisdom"
-  s.version      = "0.1.3"
+  s.name         = "HGWisdoms"
+  s.version      = "0.1.4"
   s.summary      = "一些小模块"
 
   # This description is used to generate tags and improve search results.
