@@ -10,6 +10,9 @@
 
 @implementation UIImage (color)
 
++ (UIImage *)imageWithColor:(UIColor *)color {
+	return  [self imageWithColor:color andAlpha:1];
+}
 + (UIImage *)imageWithColor:(UIColor *)color andAlpha:(CGFloat)alpha
 {
 	return [self imageWithColor:color andAlpha:alpha andSize:CGSizeMake(1, 1)];
@@ -24,15 +27,16 @@
 	 */
 		//该函数会自动创建一个context，并把它push到上下文栈顶，坐标系也经处理和UIKit的坐标系相同
 
-
-	UIGraphicsBeginImageContextWithOptions(size, (alpha != 0), 1);
+		//	UIGraphicsBeginImageContextWithOptions(size, (alpha != 0), 0);
+	UIGraphicsBeginImageContext(size);
 	CGContextRef context = UIGraphicsGetCurrentContext();
 
-	//填充颜色为蓝色
+		//填充颜色为蓝色
 	CGContextSetFillColorWithColor(context, [color CGColor]);
+
 	CGContextSetAlpha(context, alpha);
-	//在context上绘制
-	 CGRect rect = CGRectMake(0, 0, size.width, size.height);
+		//在context上绘制
+	CGRect rect = CGRectMake(0, 0, size.width, size.height);
 	CGContextFillRect(context, rect);
 
 	UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();

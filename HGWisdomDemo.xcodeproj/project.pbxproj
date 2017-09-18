@@ -27,8 +27,12 @@
 		D6045E831F651DB1003E91AA /* UIView+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = D6045E721F651DB1003E91AA /* UIView+Inspectable.m */; };
 		D6045E841F651DB1003E91AA /* HGInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6045E751F651DB1003E91AA /* HGInsetsLabel.m */; };
 		D6045E851F651DB1003E91AA /* HGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D6045E781F651DB1003E91AA /* HGTools.m */; };
-		D6045E881F651DF6003E91AA /* HGWisdom.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6045E871F651DF6003E91AA /* HGWisdom.podspec */; };
 		D6045E8E1F651E32003E91AA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6045E8D1F651E32003E91AA /* HomeViewController.m */; };
+		D6045E911F661851003E91AA /* HGWisdoms.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6045E901F661851003E91AA /* HGWisdoms.podspec */; };
+		D60A70161F6FAA7A005A3335 /* UINavigationController+HGExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70101F6FAA79005A3335 /* UINavigationController+HGExtention.m */; };
+		D60A70171F6FAA7A005A3335 /* UIImage+HGExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70111F6FAA79005A3335 /* UIImage+HGExtention.m */; };
+		D60A70181F6FAA7A005A3335 /* UIViewController+HGExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70121F6FAA79005A3335 /* UIViewController+HGExtention.m */; };
+		D60A70191F6FAA7A005A3335 /* UIColor+HGThemeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */; };
 		DD7FF00BE8B28D5FDBE0FAFE /* libPods-HGWisdomDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BBB769B49051F5F9037E7D /* libPods-HGWisdomDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -73,9 +77,17 @@
 		D6045E751F651DB1003E91AA /* HGInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGInsetsLabel.m; sourceTree = "<group>"; };
 		D6045E771F651DB1003E91AA /* HGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGTools.h; sourceTree = "<group>"; };
 		D6045E781F651DB1003E91AA /* HGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGTools.m; sourceTree = "<group>"; };
-		D6045E871F651DF6003E91AA /* HGWisdom.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HGWisdom.podspec; sourceTree = SOURCE_ROOT; };
 		D6045E8C1F651E32003E91AA /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D6045E8D1F651E32003E91AA /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D6045E901F661851003E91AA /* HGWisdoms.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HGWisdoms.podspec; sourceTree = SOURCE_ROOT; };
+		D60A700E1F6FAA78005A3335 /* UIColor+HGThemeColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HGThemeColor.h"; sourceTree = "<group>"; };
+		D60A700F1F6FAA78005A3335 /* UIViewController+HGExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HGExtention.h"; sourceTree = "<group>"; };
+		D60A70101F6FAA79005A3335 /* UINavigationController+HGExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HGExtention.m"; sourceTree = "<group>"; };
+		D60A70111F6FAA79005A3335 /* UIImage+HGExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HGExtention.m"; sourceTree = "<group>"; };
+		D60A70121F6FAA79005A3335 /* UIViewController+HGExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HGExtention.m"; sourceTree = "<group>"; };
+		D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HGThemeColor.m"; sourceTree = "<group>"; };
+		D60A70141F6FAA7A005A3335 /* UINavigationController+HGExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HGExtention.h"; sourceTree = "<group>"; };
+		D60A70151F6FAA7A005A3335 /* UIImage+HGExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HGExtention.h"; sourceTree = "<group>"; };
 		E6BBB769B49051F5F9037E7D /* libPods-HGWisdomDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGWisdomDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +152,14 @@
 		D6045E5C1F651DB1003E91AA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D60A700E1F6FAA78005A3335 /* UIColor+HGThemeColor.h */,
+				D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */,
+				D60A70151F6FAA7A005A3335 /* UIImage+HGExtention.h */,
+				D60A70111F6FAA79005A3335 /* UIImage+HGExtention.m */,
+				D60A70141F6FAA7A005A3335 /* UINavigationController+HGExtention.h */,
+				D60A70101F6FAA79005A3335 /* UINavigationController+HGExtention.m */,
+				D60A700F1F6FAA78005A3335 /* UIViewController+HGExtention.h */,
+				D60A70121F6FAA79005A3335 /* UIViewController+HGExtention.m */,
 				D6045E5D1F651DB1003E91AA /* NSCalendar+HGExtention.h */,
 				D6045E5E1F651DB1003E91AA /* NSCalendar+HGExtention.m */,
 				D6045E5F1F651DB1003E91AA /* NSDate+HGExtention.h */,
@@ -187,7 +207,7 @@
 		D6045E861F651DC5003E91AA /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				D6045E871F651DF6003E91AA /* HGWisdom.podspec */,
+				D6045E901F661851003E91AA /* HGWisdoms.podspec */,
 				D6045E531F651912003E91AA /* Info.plist */,
 				D6045E541F651912003E91AA /* main.m */,
 				D6045E421F651911003E91AA /* AppDelegate.h */,
@@ -292,7 +312,7 @@
 			files = (
 				D6045E521F651912003E91AA /* LaunchScreen.storyboard in Resources */,
 				D6045E4F1F651911003E91AA /* Assets.xcassets in Resources */,
-				D6045E881F651DF6003E91AA /* HGWisdom.podspec in Resources */,
+				D6045E911F661851003E91AA /* HGWisdoms.podspec in Resources */,
 				D6045E4D1F651911003E91AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +380,7 @@
 				D6045E7A1F651DB1003E91AA /* NSDate+HGExtention.m in Sources */,
 				D6045E851F651DB1003E91AA /* HGTools.m in Sources */,
 				D6045E821F651DB1003E91AA /* UIView+HGExtension.m in Sources */,
+				D60A70181F6FAA7A005A3335 /* UIViewController+HGExtention.m in Sources */,
 				D6045E8E1F651E32003E91AA /* HomeViewController.m in Sources */,
 				D6045E551F651912003E91AA /* main.m in Sources */,
 				D6045E7B1F651DB1003E91AA /* NSObject+HGExtention.m in Sources */,
@@ -368,9 +389,12 @@
 				D6045E791F651DB1003E91AA /* NSCalendar+HGExtention.m in Sources */,
 				D6045E811F651DB1003E91AA /* UIStoryboard+HGExtension.m in Sources */,
 				D6045E801F651DB1003E91AA /* UIScrollView+ContentOffSet.m in Sources */,
+				D60A70171F6FAA7A005A3335 /* UIImage+HGExtention.m in Sources */,
 				D6045E471F651911003E91AA /* FirstViewController.m in Sources */,
 				D6045E7C1F651DB1003E91AA /* NSObject+JSON.m in Sources */,
 				D6045E831F651DB1003E91AA /* UIView+Inspectable.m in Sources */,
+				D60A70191F6FAA7A005A3335 /* UIColor+HGThemeColor.m in Sources */,
+				D60A70161F6FAA7A005A3335 /* UINavigationController+HGExtention.m in Sources */,
 				D6045E7E1F651DB1003E91AA /* UIControl+HGExtention.m in Sources */,
 				D6045E841F651DB1003E91AA /* HGInsetsLabel.m in Sources */,
 			);
