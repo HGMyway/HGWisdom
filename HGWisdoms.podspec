@@ -5,7 +5,7 @@
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-
+# 上传方法
 # git push
 # git tag -m "add" "0.0.3"
 # git push  --tags

@@ -33,6 +33,11 @@
 		D60A70171F6FAA7A005A3335 /* UIImage+HGExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70111F6FAA79005A3335 /* UIImage+HGExtention.m */; };
 		D60A70181F6FAA7A005A3335 /* UIViewController+HGExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70121F6FAA79005A3335 /* UIViewController+HGExtention.m */; };
 		D60A70191F6FAA7A005A3335 /* UIColor+HGThemeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */; };
+		D6ABDF3A22F687330097ED8A /* UIButton+HGPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ABDF3922F687330097ED8A /* UIButton+HGPosition.m */; };
+		D6ABDF3D22F687650097ED8A /* UIViewController+HGHiddenBottem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ABDF3C22F687650097ED8A /* UIViewController+HGHiddenBottem.m */; };
+		D6ABDF4522F6876F0097ED8A /* NSObject+HGMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ABDF4022F6876F0097ED8A /* NSObject+HGMethod.m */; };
+		D6ABDF4622F6876F0097ED8A /* HGFakeForwardTargetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ABDF4222F6876F0097ED8A /* HGFakeForwardTargetObject.m */; };
+		D6ABDF4722F6876F0097ED8A /* HGSafeGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ABDF4422F6876F0097ED8A /* HGSafeGuard.m */; };
 		DD7FF00BE8B28D5FDBE0FAFE /* libPods-HGWisdomDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BBB769B49051F5F9037E7D /* libPods-HGWisdomDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +93,16 @@
 		D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HGThemeColor.m"; sourceTree = "<group>"; };
 		D60A70141F6FAA7A005A3335 /* UINavigationController+HGExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HGExtention.h"; sourceTree = "<group>"; };
 		D60A70151F6FAA7A005A3335 /* UIImage+HGExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HGExtention.h"; sourceTree = "<group>"; };
+		D6ABDF3822F687320097ED8A /* UIButton+HGPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HGPosition.h"; sourceTree = "<group>"; };
+		D6ABDF3922F687330097ED8A /* UIButton+HGPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HGPosition.m"; sourceTree = "<group>"; };
+		D6ABDF3B22F687650097ED8A /* UIViewController+HGHiddenBottem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HGHiddenBottem.h"; sourceTree = "<group>"; };
+		D6ABDF3C22F687650097ED8A /* UIViewController+HGHiddenBottem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HGHiddenBottem.m"; sourceTree = "<group>"; };
+		D6ABDF3F22F6876F0097ED8A /* HGFakeForwardTargetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGFakeForwardTargetObject.h; sourceTree = "<group>"; };
+		D6ABDF4022F6876F0097ED8A /* NSObject+HGMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HGMethod.m"; sourceTree = "<group>"; };
+		D6ABDF4122F6876F0097ED8A /* HGSafeGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSafeGuard.h; sourceTree = "<group>"; };
+		D6ABDF4222F6876F0097ED8A /* HGFakeForwardTargetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGFakeForwardTargetObject.m; sourceTree = "<group>"; };
+		D6ABDF4322F6876F0097ED8A /* NSObject+HGMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HGMethod.h"; sourceTree = "<group>"; };
+		D6ABDF4422F6876F0097ED8A /* HGSafeGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSafeGuard.m; sourceTree = "<group>"; };
 		E6BBB769B49051F5F9037E7D /* libPods-HGWisdomDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGWisdomDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +157,7 @@
 		D6045E5B1F651DB1003E91AA /* HGWisdom */ = {
 			isa = PBXGroup;
 			children = (
+				D6ABDF3E22F6876F0097ED8A /* NSObject */,
 				D6045E5C1F651DB1003E91AA /* Category */,
 				D6045E731F651DB1003E91AA /* CustomKit */,
 				D6045E761F651DB1003E91AA /* Tools */,
@@ -152,6 +168,10 @@
 		D6045E5C1F651DB1003E91AA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D6ABDF3B22F687650097ED8A /* UIViewController+HGHiddenBottem.h */,
+				D6ABDF3C22F687650097ED8A /* UIViewController+HGHiddenBottem.m */,
+				D6ABDF3822F687320097ED8A /* UIButton+HGPosition.h */,
+				D6ABDF3922F687330097ED8A /* UIButton+HGPosition.m */,
 				D60A700E1F6FAA78005A3335 /* UIColor+HGThemeColor.h */,
 				D60A70131F6FAA79005A3335 /* UIColor+HGThemeColor.m */,
 				D60A70151F6FAA7A005A3335 /* UIImage+HGExtention.h */,
@@ -240,6 +260,19 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		D6ABDF3E22F6876F0097ED8A /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D6ABDF3F22F6876F0097ED8A /* HGFakeForwardTargetObject.h */,
+				D6ABDF4022F6876F0097ED8A /* NSObject+HGMethod.m */,
+				D6ABDF4122F6876F0097ED8A /* HGSafeGuard.h */,
+				D6ABDF4222F6876F0097ED8A /* HGFakeForwardTargetObject.m */,
+				D6ABDF4322F6876F0097ED8A /* NSObject+HGMethod.h */,
+				D6ABDF4422F6876F0097ED8A /* HGSafeGuard.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		F1C48C7B031B809F17A5ACA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,7 +311,7 @@
 		D6045E371F651911003E91AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "小雨很美";
 				TargetAttributes = {
 					D6045E3E1F651911003E91AA = {
@@ -382,12 +415,16 @@
 				D6045E821F651DB1003E91AA /* UIView+HGExtension.m in Sources */,
 				D60A70181F6FAA7A005A3335 /* UIViewController+HGExtention.m in Sources */,
 				D6045E8E1F651E32003E91AA /* HomeViewController.m in Sources */,
+				D6ABDF4522F6876F0097ED8A /* NSObject+HGMethod.m in Sources */,
 				D6045E551F651912003E91AA /* main.m in Sources */,
 				D6045E7B1F651DB1003E91AA /* NSObject+HGExtention.m in Sources */,
 				D6045E7F1F651DB1003E91AA /* UIImage+color.m in Sources */,
 				D6045E7D1F651DB1003E91AA /* NSString+Catrgory.m in Sources */,
+				D6ABDF3A22F687330097ED8A /* UIButton+HGPosition.m in Sources */,
+				D6ABDF4722F6876F0097ED8A /* HGSafeGuard.m in Sources */,
 				D6045E791F651DB1003E91AA /* NSCalendar+HGExtention.m in Sources */,
 				D6045E811F651DB1003E91AA /* UIStoryboard+HGExtension.m in Sources */,
+				D6ABDF3D22F687650097ED8A /* UIViewController+HGHiddenBottem.m in Sources */,
 				D6045E801F651DB1003E91AA /* UIScrollView+ContentOffSet.m in Sources */,
 				D60A70171F6FAA7A005A3335 /* UIImage+HGExtention.m in Sources */,
 				D6045E471F651911003E91AA /* FirstViewController.m in Sources */,
@@ -397,6 +434,7 @@
 				D60A70161F6FAA7A005A3335 /* UINavigationController+HGExtention.m in Sources */,
 				D6045E7E1F651DB1003E91AA /* UIControl+HGExtention.m in Sources */,
 				D6045E841F651DB1003E91AA /* HGInsetsLabel.m in Sources */,
+				D6ABDF4622F6876F0097ED8A /* HGFakeForwardTargetObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +474,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -443,6 +482,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -491,6 +531,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -498,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -532,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS8LC8S2JB;
 				INFOPLIST_FILE = HGWisdomDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myway.HGWisdomDemo;
@@ -546,6 +589,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS8LC8S2JB;
 				INFOPLIST_FILE = HGWisdomDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myway.HGWisdomDemo;
